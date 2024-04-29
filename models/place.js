@@ -6,6 +6,7 @@ class Place{
         this.imageURI=imageURI;
         this.address=address;
         this.location=location;
+        this.id=new Date().toString()+Math.random().toString();
     }
 
 }
